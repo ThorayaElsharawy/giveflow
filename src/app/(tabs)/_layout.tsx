@@ -4,7 +4,7 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 const TabLayout = () => {
     const tabsArr: {
         name: string;
-        icon: string;
+        icon: "home-outline" | "stats-chart-outline" | "heart-circle-outline" | "settings-outline" ;
         title: string;
     }[] = [
         {
@@ -29,11 +29,12 @@ const TabLayout = () => {
         }
     ]
 
+    // @ts-ignore
     return <Tabs
         screenOptions={{
             headerShown: false,
             tabBarShowLabel: false,
-            tabBarActiveTintColor: "#111827",
+            tabBarActiveTintColor: "#3b82f6",
             tabBarInactiveTintColor: "#9CA3AF",
             tabBarStyle: {
                 height: 70,
