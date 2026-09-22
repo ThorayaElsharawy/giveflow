@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*@layer components {*/
+/*    .home-header {*/
+/*        @apply px-4 py-3 flex-row items-center gap-4;*/
+/*    }*/
+
+/*    .header-title {*/
+/*        @apply font-roboto-bold text-lg text-black;*/
+/*    }*/
+
+/*    .home-user {*/
+/*        @apply rounded-full p-3 bg-[#3b82f6];*/
+/*    }*/
+
+/*    .home-balance-card {*/
+/*        @apply bg-[#3b82f6] p-4 rounded-tl-6xl rounded-br-6xl mt-2;*/
+/*    }*/
+
+/*    .home-balance-label {*/
+/*        @apply font-bold text-2xl text-white font-roboto-bold;*/
+/*    }*/
+/*}*/
