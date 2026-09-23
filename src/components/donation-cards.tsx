@@ -3,9 +3,15 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 
 const DonationCards = ({item}: { item: any }) => {
     return (
-        <View className='flex-row items-center gap-2 border border-gray-200 rounded-2xl bg-blue-200 p-4 mr-2 mb-3'>
-            <Ionicons name={item.icon} size={20}   />
-            <Text className='text-xl'>{item.name}</Text>
+        <View className='bg-[#e7effc] rounded-xl p-3 py-6 mr-2 mb-3 items-start'>
+            <Ionicons className='bg-[#cce1fd] rounded-full aspect-square p-2 mb-3'
+                      name={item.icon}
+                      size={20}
+                      color='#1c6df9'/>
+            <View className='flex-row items-center justify-between min-w-[120px]'>
+                <Text>{item.name}</Text>
+                <Ionicons name="chevron-forward" size={15} color='#0056f8'/>
+            </View>
         </View>
     )
 }
